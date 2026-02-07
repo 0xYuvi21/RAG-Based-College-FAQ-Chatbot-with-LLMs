@@ -1,4 +1,4 @@
-#RAG-Based College FAQ Chatbot with LLMs
+# RAG-Based College FAQ Chatbot with LLMs
 
 A simple yet powerful Retrieval-Augmented Generation (RAG) chatbot built with FastAPI and Python, designed to provide accurate information about SRM Madurai College of Engineering and Technology. The chatbot leverages the Groq API for fast LLM inference and a local JSON file as its knowledge base.
 
