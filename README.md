@@ -1,57 +1,71 @@
-# RAG-Based College FAQ Chatbot with LLMs
+<div align="center">
 
-A simple yet powerful Retrieval-Augmented Generation (RAG) chatbot built with FastAPI and Python, designed to provide accurate information about SRM Madurai College of Engineering and Technology. The chatbot leverages the Groq API for fast LLM inference and a local JSON file as its knowledge base.
+# 🎓 RAG-Based College FAQ Chatbot with LLMs
 
-# Features:
-College Information Retrieval: Answers questions based on detailed information loaded from college_info.json.
+### Retrieval-Augmented Generation chatbot for accurate college information
 
-Groq API Integration: Utilizes Groq's high-speed inference engine for fast and efficient LLM responses.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-⚡-green)
+![LLM](https://img.shields.io/badge/LLM-Groq-purple)
+![License](https://img.shields.io/github/license/0xYuvi21/FAQ-chatbot)
+![Stars](https://img.shields.io/github/stars/0xYuvi21/FAQ-chatbot?style=social)
 
-FastAPI Backend: A robust and performant API built with FastAPI, featuring:
+A simple yet powerful **RAG-based chatbot** built with **FastAPI** and **Python**, designed to provide accurate and grounded answers about  
+**SRM Madurai College of Engineering and Technology** using a local knowledge base and **Groq LLMs**.
 
-Automatic request body validation using Pydantic.
+</div>
 
-Asynchronous request handling for concurrency.
+---
 
-CORS middleware for seamless frontend integration.
+##  Features
 
-Simple Frontend: A basic HTML/JavaScript interface for user interaction.
+- 🏫 **College Information Retrieval**  
+  Answers questions using structured data loaded from `college_info.json`.
 
-Retrieval-Augmented Generation (RAG): Grounds LLM responses in specific, provided college data.
+- 🧠 **Retrieval-Augmented Generation (RAG)**  
+  Grounds LLM responses in verified college data to reduce hallucinations.
 
+- ⚡ **Groq API Integration**  
+  Uses Groq’s high-speed inference engine for fast and efficient LLM responses.
 
-# Tech Stack:
-  *Backend:*
+- 🧩 **FastAPI Backend**
+  - Automatic request validation with **Pydantic**
+  - Asynchronous request handling
+  - CORS middleware for frontend integration
 
-    Python 3.9+
+- 🌐 **Simple Frontend**  
+  Lightweight **HTML + CSS + JavaScript** interface for user interaction.
 
-    FastAPI
+---
 
-    Pydantic
+## 🛠️ Tech Stack
 
-    Requests
+### Backend
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-green)
+![Pydantic](https://img.shields.io/badge/Pydantic-data_validation-orange)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI_server-lightgrey)
+![Groq](https://img.shields.io/badge/Groq-LLM-purple)
 
-    Uvicorn (ASGI server)
+### Frontend
+![HTML](https://img.shields.io/badge/HTML5-orange)
+![CSS](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-    Groq API (for LLM inference)
+---
 
-  *Frontend:*
+## 📦 Prerequisites
 
-    HTML5
+- Python 3.9+
+- pip (Python package installer)
+- A **Groq API Key**  
+  👉 Get one from the Groq Console
 
-    CSS3
+---
 
-    JavaScript (Fetch API, DOM manipulation)
+## 📥 Installation
 
-*Prerequisites*
-  * Python 3.9+ installed.
-
-  * pip (Python package installer).
-
-  * A Groq API Key. You can obtain one from Groq Console.
-
-*Clone the repository:*
-
- git clone https://github.com/0xYuvi21/FAQ-chatbot.git
- 
- cd FAQ-chatbot
+```bash
+git clone https://github.com/0xYuvi21/FAQ-chatbot.git
+cd FAQ-chatbot
+pip install -r requirements.txt
